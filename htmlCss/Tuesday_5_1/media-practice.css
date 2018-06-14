@@ -1,0 +1,70 @@
+/*#the-box{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+@media screen and (min-width: 900px){
+	#the-box{
+		background-color: blue;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+	#the-box{
+		background-color: yellow;
+	}
+	body{
+		background-color: green;
+	}
+}
+
+@media screen and (max-width:600px){
+	#the-box{
+		border-radius: 50%;
+		border: 10px solid black;
+	}
+}*/
+
+
+#top-menu{
+	height: 200px;
+	background-color: purple;
+}
+
+#left-menu li{
+	list-style: none;
+	height: 100px;
+	background-color: blue;
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+	#left-menu{
+		float: left;
+		width: 20%;
+	}
+	#right-menu{
+		float: right;
+		width: 20%
+	}
+}
+
+#right-menu{
+	height: 200px;
+	background-color: blue;
+}
+
+#content{
+	height: 500px;
+	float: left;
+	width: 60%;
+}
+
+#footer{
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	bottom: 500;
+	left: 0;
+}

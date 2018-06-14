@@ -1,0 +1,131 @@
+body{
+	background-image: url("invaders.png")
+}
+
+#tv { 
+	position: relative; 
+	/*width: 200px; height: 150px;*/
+	 width: 750px; height: 650px;
+	margin: 20px 0; 
+	background: black; 
+	border:2px solid black;
+	border-radius: 50% / 10% ; 
+	color: red; 
+	text-align: center; 
+	text-indent: .1em; 
+	left: 22.5%;
+} 
+
+#tv:before { 
+	content: ''; 
+	position: absolute; 
+	top: 10%; 
+	bottom: 10%;
+	 right: -5%; 
+	 left: -5%; 
+	 background: black; 
+	 border-radius: 5% / 50%; 
+} 
+
+ #space-invader1{ 
+ 	 box-shadow: 0 0 0 1em limegreen, 0 1em 0 1em limegreen, -2.5em 1.5em 0 .5em limegreen, 2.5em 1.5em 0 .5em limegreen, -3em -3em 0 0 limegreen, 3em -3em 0 0 limegreen, -2em -2em 0 0 limegreen, 2em -2em 0 0 limegreen, -3em -1em 0 0 limegreen, -2em -1em 0 0 limegreen, 2em -1em 0 0 limegreen, 3em -1em 0 0 limegreen, -4em 0 0 0 limegreen, -3em 0 0 0 limegreen, 3em 0 0 0 limegreen, 4em 0 0 0 limegreen, -5em 1em 0 0 limegreen, -4em 1em 0 0 limegreen, 4em 1em 0 0 limegreen, 5em 1em 0 0 limegreen, -5em 2em 0 0 limegreen, 5em 2em 0 0 limegreen, -5em 3em 0 0 limegreen, -3em 3em 0 0 limegreen, 3em 3em 0 0 limegreen, 5em 3em 0 0 limegreen, -2em 4em 0 0 limegreen, -1em 4em 0 0 limegreen, 1em 4em 0 0 limegreen, 2em 4em 0 0 limegreen;
+ 	 width: 1em; 
+ 	 height: 1em; 
+ 	 overflow: hidden; 
+ 	 margin: 50px 0 70px 65px; 
+ 	 position: absolute;
+ 	 bottom: 425px;
+ 	 left: 25%;
+
+}
+#space-invader2{ 
+ 	 box-shadow: 0 0 0 1em limegreen, 0 1em 0 1em limegreen, -2.5em 1.5em 0 .5em limegreen, 2.5em 1.5em 0 .5em limegreen, -3em -3em 0 0 limegreen, 3em -3em 0 0 limegreen, -2em -2em 0 0 limegreen, 2em -2em 0 0 limegreen, -3em -1em 0 0 limegreen, -2em -1em 0 0 limegreen, 2em -1em 0 0 limegreen, 3em -1em 0 0 limegreen, -4em 0 0 0 limegreen, -3em 0 0 0 limegreen, 3em 0 0 0 limegreen, 4em 0 0 0 limegreen, -5em 1em 0 0 limegreen, -4em 1em 0 0 limegreen, 4em 1em 0 0 limegreen, 5em 1em 0 0 limegreen, -5em 2em 0 0 limegreen, 5em 2em 0 0 limegreen, -5em 3em 0 0 limegreen, -3em 3em 0 0 limegreen, 3em 3em 0 0 limegreen, 5em 3em 0 0 limegreen, -2em 4em 0 0 limegreen, -1em 4em 0 0 limegreen, 1em 4em 0 0 limegreen, 2em 4em 0 0 limegreen;
+ 	 width: 1em; 
+ 	 height: 1em; 
+ 	 overflow: hidden; 
+ 	margin: 50px 0 70px 65px; 
+ 	position: absolute;
+ 	bottom: 425px;
+ 	left: 55%;
+
+}
+#space-invader3{ 
+ 	 box-shadow: 0 0 0 1em limegreen, 0 1em 0 1em limegreen, -2.5em 1.5em 0 .5em limegreen, 2.5em 1.5em 0 .5em limegreen, -3em -3em 0 0 limegreen, 3em -3em 0 0 limegreen, -2em -2em 0 0 limegreen, 2em -2em 0 0 limegreen, -3em -1em 0 0 limegreen, -2em -1em 0 0 limegreen, 2em -1em 0 0 limegreen, 3em -1em 0 0 limegreen, -4em 0 0 0 limegreen, -3em 0 0 0 limegreen, 3em 0 0 0 limegreen, 4em 0 0 0 limegreen, -5em 1em 0 0 limegreen, -4em 1em 0 0 limegreen, 4em 1em 0 0 limegreen, 5em 1em 0 0 limegreen, -5em 2em 0 0 limegreen, 5em 2em 0 0 limegreen, -5em 3em 0 0 limegreen, -3em 3em 0 0 limegreen, 3em 3em 0 0 limegreen, 5em 3em 0 0 limegreen, -2em 4em 0 0 limegreen, -1em 4em 0 0 limegreen, 1em 4em 0 0 limegreen, 2em 4em 0 0 limegreen;
+ 	 width: 1em; 
+ 	 height: 1em; 
+ 	 overflow: hidden; 
+ 	margin: 50px 0 70px 65px; 
+ 	position: absolute;
+ 	bottom: 250px;
+ 	left: 65%;
+}
+
+#burst-12{
+ background: white; 
+ width: 25px; 
+ height: 25px; 
+ position: relative; 
+ text-align: center;
+ bottom: 350px;
+ left: 600px;
+} 
+
+
+#burst-12:before, #burst-12:after { 
+	content: ""; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	height: 25px; 
+	width: 25px; 
+	background: white; 
+} 
+
+#burst-12:before { 
+	-webkit-transform: rotate(30deg);
+	 -moz-transform: rotate(30deg);
+	  -ms-transform: rotate(30deg);
+	   -o-transform: rotate(30deg);
+} 
+
+#burst-12:after { 
+	-webkit-transform: rotate(60deg);
+	 -moz-transform: rotate(60deg); 
+	 -ms-transform: rotate(60deg); 
+	 -o-transform: rotate(60deg); }
+
+#cone{ 
+	 width: 0; height: 0;
+	 border-left: 100px solid transparent;
+	 border-right: 100px solid transparent; 
+	 border-top: 100px solid skyblue; 
+	 -moz-border-radius: 50%; 
+	 -webkit-border-radius: 50%; 
+	 border-radius: 59%; 
+}
+
+#rectangle-bottom { 
+	width: 80px; 
+	height: 30px; 
+	background: white; 
+	position: relative;
+	left: 43.5%;
+	bottom: 100px;
+}
+#rectangle-top{ 
+	width: 20px; 
+	height: 15px; 
+	background: white; 
+	position: relative;
+	left: 45.7%;
+	bottom: 140px;
+}
+
+#shot{ 
+	height: 20px; 
+	width: 5px; 
+	background-color: red; 
+	position: relative;
+	left: 46%;
+	bottom: 392px;
+}

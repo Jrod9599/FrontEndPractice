@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--title used by the browser tab system ann all the SEO stuff -->
+		<title>Places to visit in Georgia!</title>
+		<style>
+		/*styles will go here*/
+			#gallery-wrapper{
+				text-align: center;
+			}
+			#middle-section{
+				float: left;
+				width: 20%;
+			}
+			#bottom-section{
+				float: right;
+				width: 70%;
+				margin: 0px 100px 0px 0px;
+			}
+			.thumb{
+				width: 80%;
+				/*2 numbers = 1st: top and bottom
+							  2nd: left and right */
+				/*3 numbers = 1st: top
+							  2nd: left and right 
+							  3rd: bottom */
+				/*4 numbers = 1st: top
+							  2nd: right 
+							  3rd: bottom 
+							  4th: left*/
+				margin: 0px 5px 5px;
+			}
+			li{
+				list-style-type: none
+			}
+			img{
+				width:1000px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="gallery-wrapper">
+			<div id="top-section">
+				<h1>A photo gallery made with HTML, JS, and CSS. And a whole lot of stuff.</h1>
+			</div>
+			<div id="middle-section">
+				<ul>
+					<li><img class="thumb" src="./ga_pics/arabia_mnt.jpg" onClick="bigPic.src = this.src" /></li>
+					<li><img class="thumb" src="./ga_pics/callaway_gardens.jpg" onClick="bigPic.src = this.src"/></li>
+					<li><img class="thumb" src="./ga_pics/Etowah_Indian_Mounds.jpg" onClick="bigPic.src = this.src"/></li>
+					<li><img class="thumb" src="./ga_pics/prov_state_canyon.jpg" onClick="bigPic.src = this.src"/></li>
+					<li><img class="thumb" src="./ga_pics/wormsloe.jpg" onClick="bigPic.src = this.src"/></li>
+				</ul>
+			</div>
+			<div id="bottom-section">
+				<img src="./ga_pics/arabia_mnt.jpg" name="bigPic"/>
+			</div>
+		</div>
+	</body>
+</html>

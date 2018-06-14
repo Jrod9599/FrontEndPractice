@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <h1>Sanity Check</h1> -->
+	<!-- <img src="http://i.imgur.com/lh1nz.jpg" /> -->
+
+	<% for(let i =0; i < atlTeams.length; i++){ %>
+	<h2> <%= atlTeams[i]  %></h2>
+	<% }%>
+
+	<ul>
+		<% atlTeams.forEach((team)=>{ %>
+			<li><%= team %></li>
+		<% })%> 
+	</ul>
+
+	<!-- <script type="text/javascript">
+		alert(`Does this work?`);
+	</script> -->
+
+</body>
+</html>

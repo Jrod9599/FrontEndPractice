@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   
+
+  	<h1>Montly Crue Members</h1>
+  	<table border=1 id="my-table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<% theBand.forEach((member)=>{ %>
+  			<tr>
+  				<td><%=member%></td>
+  			</tr>
+  			<%})%>
+  		</tbody>
+  	</table>
+
+
+  </body>
+</html>

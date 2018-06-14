@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS 101</title>
+
+		<link rel="stylesheet" type="text/css" href="./css101.css">
+
+	</head>
+	<body>
+		<div id="container">
+			
+			<div class="the-block one">
+				Some text.Some text.Some text.Some text.Some text.
+				Some text.Some text.Some text.Some text.Some text.
+				Some text.Some text.Some text.Some text.Some text.
+			</div>
+
+			<div class="the-block two">
+				Some Really Important Text.Some Really Important Text.Some Really Important Text.
+			</div>
+
+		</div>
+
+		<!-- block element (div, p, h1) -->
+		<!-- 1. a block level element, by default, takes up ALL teh space on the line.
+		2. It can have a height and a width
+		3. Nothing can EVER be on either side of the block (internal to the parent)
+			Even if you change the width, margin will simply be added. 
+		4. Default is 100%, it can be greater than 100% -->
+		<div class="parent">
+			<div>
+				<div>
+					Grandchild
+				</div>
+			</div>
+		</div>
+
+		<!-- 1. Can have stuff on either side
+		2. Can NOT have a height or width. It will ignore both
+		3. Will respect left and right padding/margin, but will
+		totally ignore top and bottom.
+		4. Will laugh at you if you try and apply block level rules (few exceptions apply) -->
+
+		<!-- INLINE BLOCK -->
+		<!-- 1. can hvae stuff on either side(just like inline)
+		2. can have height and width(just like block)
+		3. can have top/bottom margin/padding(just like block) -->
+		<span class="inline-tag">
+			I am inline. I dont really care if you try
+			and set my width or height. Seriously, I dont
+			care. I will be as big as i wanna be. 
+		</span>
+
+	</body>
+</html>
