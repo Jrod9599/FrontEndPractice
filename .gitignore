@@ -31,3 +31,4 @@ config
 /nbdist/
 /.nb-gradle/
 
+package-lock.json
